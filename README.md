@@ -2,7 +2,7 @@
 
 This is a web-based application for recognizing handwritten digits using the MNIST dataset. Users can upload an image of a handwritten digit, and the application predicts the digit using a pre-trained model.
 
-can be viwed at http://13.43.187.132/
+can be viwed at http://13.43.187.132/ that runs over an AWS EC2 Instance.
 
 ## Features
 - **Upload Images**: Users can upload images in PNG or JPEG format.
