@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>MNIST Digit Recognition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MNIST Digit Recognition</h1>
+            <p>Upload a handwritten digit image and get the predicted number!</p>
+        </header>
+
+        <main>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <label for="image">Select an image (e.g., PNG, JPEG of a single digit):</label><br><br>
+                <input type="file" name="image" id="image" accept="image/*"><br><br>
+                <button type="submit">Upload & Predict Digit</button>
+            </form>
+
+            <h2 id="resultMsg"></h2>
+
+            <div class="preview-container" id="previewContainer">
+                <h3>Preview:</h3>
+                <!-- Preview image will appear here -->
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
