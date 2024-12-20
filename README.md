@@ -25,3 +25,7 @@ This is a web-based application for recognizing handwritten digits using the MNI
    ```bash
    git clone https://github.com/<your-username>/mnist-digit-recognition.git
    cd mnist-digit-recognition
+2. Use the following command to install the dependencies:
+   ```bash
+   pip install -r requirements.txt
+
